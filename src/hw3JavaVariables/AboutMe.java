@@ -20,5 +20,6 @@ public class AboutMe {
 		System.out.println("My age " + aboutMe.age + " My sex " + aboutMe.sex + " My salary " + aboutMe.myYearlySalary);
 
 	}
+	//
 
 }
