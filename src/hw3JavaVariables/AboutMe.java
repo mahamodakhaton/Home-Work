@@ -10,7 +10,7 @@ public class AboutMe {
 	public char sex = 'f';
 	public double myGrade = 3.96784378349;
 	public boolean grduated = true;
-	public Integer myYearlySalary = 2112565636;
+	public Integer myYearlySalary = 2112565636;	
 	public long myBankBalance = 97654321345467L;
 	public short myApartmentRent = 32398;
 
