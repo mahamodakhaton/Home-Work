@@ -11,19 +11,18 @@ public class AboutMe {
 	public boolean usCitizen;
 	public Integer myYearlySalary;
 	public long myBankBalance;
-	public short myApartmentRent;
-
+	public short myApartmentRent;	
 	
-	
-	// This is constructor.
+	// This is a  constructor.
 	// here constructor declared.
 	public AboutMe () {
 		System.out.println("This is all about us:");
+		
 
 	}
-    // this is method.
-	// here method implemented.
-	public void aboutMeMethod() {
+    // This is a method.
+	// Here method implemented.
+	public void aboutMe() {
 		System.out.println("My Name: " + name + "\nMy Age: " + age + "\nMy Apartment Rent: " + myApartmentRent
 				+ "\nYearly Salary: " + myYearlySalary + "\nMy Bank Balance" + myBankBalance + "Sex: " + sex
 				+ "\nMy Height: " + myHeight + "\nMy Grade: " + myGrade + "\nAm I US Citizen? Ans: " + usCitizen);
