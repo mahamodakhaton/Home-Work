@@ -20,10 +20,10 @@ public class AboutMeTest {
 	System.out.println("\n--------------------------------------------------\n");
 	AboutMe aboutMeAlex  = new AboutMe();
 	// Variables are initialized
-	aboutMeAlex .name = "Alex";
-	aboutMeAlex .age = 100;
-	aboutMeAlex .myApartmentRent = 30005;
-	aboutMeAlex .myYearlySalary = 476482364;
+	aboutMeAlex.name = "Alex";
+	aboutMeAlex.age = 100;
+	aboutMeAlex.myApartmentRent = 30005;
+	aboutMeAlex.myYearlySalary = 476482364;
 	aboutMeAlex.myBankBalance = 2658736472686l;
 	aboutMeAlex.myHeight = 1.979f;
 	aboutMeAlex.myGrade = 3.97568346;
