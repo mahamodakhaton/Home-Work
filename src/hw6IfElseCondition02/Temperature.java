@@ -1,0 +1,27 @@
+package hw6IfElseCondition02;
+
+import java.util.Scanner;
+
+public class Temperature {
+	
+
+	public static void main(String[] args) {
+        System.out.println("Todays Weather");
+		 int temperature = 78;
+        Scanner scanner = new Scanner(System.in);
+		int temprature = scanner.nextInt();
+		if (temperature < 32) {
+			System.out.println("freezing");
+		} else if (temperature < 55) {
+			System.out.println("Pleasant");
+		} else if (temperature < 73) {
+			System.out.println("Getting Warmer");
+		} else if (temperature > 101) {
+			System.out.println("Hot");
+		} else {
+			System.out.println(" Please put ice on my Head");
+		}
+		scanner.close();
+	}
+
+}
