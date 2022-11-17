@@ -2,7 +2,7 @@ package hw8Inheritance;
 
 
 public class AnimalTest {
-	public void name() {
+	public static void main(String[]args) {
 		Animal animal = new Animal();
 		animal.animalinfo();
 		
