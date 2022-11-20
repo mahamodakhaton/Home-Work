@@ -1,7 +1,5 @@
 package hw8Abstraction;
 
-import java.security.PublicKey;
-
 public abstract class MedicalSchool {
 	public abstract void anatomylab();
 
@@ -17,6 +15,13 @@ public abstract class MedicalSchool {
 
 	public void biochemistryLab() {
 		System.out.println("This method is non abstract class");
+
+		/*
+		 * yes we can inherit abstract class to abstract class by key ward extend also
+		 * we can inherit abstract class to regular class by key ward of extend but we
+		 * can not inherit abstract class to interface class by key ward extend But can
+		 * inherit abstract class and regular by extend key ward only one time
+		 */
 
 	}
 }
