@@ -3,7 +3,7 @@ package hw8Abstraction;
 public abstract class MedicalSchool {
 	public abstract void anatomylab();
 
-	public String anatomyLab; // This is default constructor
+	public String anatomylab ; // This is default constructor
 
 	// yes This is a constructor
 	public MedicalSchool() {

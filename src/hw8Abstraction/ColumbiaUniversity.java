@@ -1,7 +1,5 @@
 package hw8Abstraction;
 
-import java.security.PublicKey;
-
 public class ColumbiaUniversity {
 
 	// This is default constructor
