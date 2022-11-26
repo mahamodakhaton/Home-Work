@@ -1,6 +1,20 @@
-package hw10Abstraction;
+package hw11Abstraction;
 
-public interface University {
+
+
+public interface University extends Collage,Hospital {
+	static void classSize() {
+		
+	}
+
+	static void playGround() {
+		
+	}
+
+	static void teacher(){
+		
+		
+	}
 
 	/*
 	 * university interface can not inheritance College,School by keyword of
@@ -22,4 +36,35 @@ public interface University {
 	 * one to use comma
 	 */
 
+
+			
+	 String gymnasium();// This is default method
+
+	public static final int library = 1600;
+
+	/*
+	 * yes interface can inheritance in interface class by extend ward but interface
+	 * cannot inherit regular class
+	  
+	 * also interface cannot inherit abstract class by extend ward.
+	 
+	 * interface can extend two class at a time by comma.
+	 */
+
+
+		
+	public void classsize();
+
+	public void playground();
+
+	public void teacher();
+
+		
+	public void library();
+	
+		
+	}
 }
+
+// interface inside cannot create constructor
+// only you can declare by static final

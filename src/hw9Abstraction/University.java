@@ -1,18 +1,15 @@
 package hw9Abstraction;
 
-public interface University {
+import hw9Abstraction.college;
 
-	public String gymnasium();// This is default method
+public interface University extends Collage,Hospital {
 
-	public static final int library = 1600;
+	public void classSize();
 
-	/*
-	 * yes interface can inheritance in interface class by extend ward but interface
-	 * cannot inherit regular class
-	  
-	 * also interface cannot inherit abstract class by extend ward.
-	 
-	 * interface can extend two class at a time by comma.
-	 */
+	public void playground();
 
+	public void teacher();
 }
+
+// interface inside cannot create constructor
+// only you can declare by static final

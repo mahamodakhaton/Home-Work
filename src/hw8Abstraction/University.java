@@ -1,6 +1,8 @@
 package hw8Abstraction;
 
-public interface University {
+import hw9Abstraction.college;
+
+public interface University extends college,Hospital {
 
 	public void classSize();
 

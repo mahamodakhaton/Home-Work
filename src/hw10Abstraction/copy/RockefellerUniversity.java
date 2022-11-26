@@ -1,4 +1,4 @@
-package hw8Abstraction;
+package hw10Abstraction.copy;
 
 public class RockefellerUniversity extends EngineeringSchool implements AeronauticalSchool {
 	// This is non abstract method

@@ -1,13 +1,11 @@
-package hw8Abstraction;
+package hw11Abstraction;
 
 public class ColumbiaUniversity extends MedicalSchool implements University,VocationalSchool{
 
 	// This is default constructor
 
-public ColumbiaUniversity () {
-	
-}
-
+	public String Chemistry;
+	public String Biology;
 
 	// This is non abstract method
 	// This method is implemented
@@ -128,6 +126,11 @@ public ColumbiaUniversity () {
 	}
 
 	public void languageClub() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void anatomyLab() {
 		// TODO Auto-generated method stub
 		
 	}

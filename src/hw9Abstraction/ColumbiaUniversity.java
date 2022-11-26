@@ -1,4 +1,4 @@
-package hw8Abstraction;
+package hw9Abstraction;
 
 public class ColumbiaUniversity extends MedicalSchool implements University,VocationalSchool{
 

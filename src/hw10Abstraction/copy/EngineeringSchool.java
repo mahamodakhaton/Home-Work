@@ -1,4 +1,4 @@
-package hw8Abstraction;
+package hw10Abstraction.copy;
 
 public abstract class EngineeringSchool extends NYUniversity{
 	public abstract void medicallab();;// This is abstract

@@ -1,4 +1,4 @@
-package hw8Abstraction;
+package hw10Abstraction.copy;
 
 public abstract class MedicalSchool extends NursingSchool implements LawSchool{
 	public abstract void anatomylab();

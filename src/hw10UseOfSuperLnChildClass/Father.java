@@ -9,9 +9,6 @@ public class Father {
 	public Father() {
 		System.out.println("This is default constructor from father class");
 	}
-
-	
-
 	public Father(String name, int age, char sex, boolean usCitizen, String familyname) {
 		
 			this.name = name;

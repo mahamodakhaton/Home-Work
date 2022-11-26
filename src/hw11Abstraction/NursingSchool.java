@@ -1,4 +1,4 @@
-package hw8Abstraction;
+package hw11Abstraction;
 
 public abstract class NursingSchool extends RockefellerUniversity {
 	public abstract void hygiene();// This is abstract method
