@@ -3,7 +3,7 @@ package hw11Abstraction;
 public abstract class MedicalSchool extends NursingSchool implements LawSchool{
 	public abstract void anatomylab();
 
-	public String anatomylab ; // This is default constructor
+	 // This is default constructor
 
 	// yes This is a constructor
 	public MedicalSchool() {

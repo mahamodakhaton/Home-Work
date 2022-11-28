@@ -33,7 +33,7 @@ public class ColumbiaUniversity extends MedicalSchool implements University,Voca
 	}
 
 	@Override
-	public String dorm() {
+	public int dorm() {
 		// TODO Auto-generated method stub
 		return null;
 	}
@@ -74,7 +74,6 @@ public class ColumbiaUniversity extends MedicalSchool implements University,Voca
 		
 	}
 
-	@Override
 	public void classSize() {
 		// TODO Auto-generated method stub
 		
@@ -86,7 +85,6 @@ public class ColumbiaUniversity extends MedicalSchool implements University,Voca
 		
 	}
 
-	@Override
 	public void teacher() {
 		// TODO Auto-generated method stub
 		
@@ -131,6 +129,36 @@ public class ColumbiaUniversity extends MedicalSchool implements University,Voca
 	}
 
 	public void anatomyLab() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void commonRoom() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public String morgue() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String gymnasium() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void classsize() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void library() {
 		// TODO Auto-generated method stub
 		
 	}

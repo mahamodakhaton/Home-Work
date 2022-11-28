@@ -1,14 +1,21 @@
 package hw9Abstraction;
-
-import hw9Abstraction.college;
-
 public interface University extends Collage,Hospital {
 
+	// Interface cannot have constructor
 	public void classSize();
 
-	public void playground();
+	public abstract void playground();
 
-	public void teacher();
+	public abstract void teacher();
+	public default void gymnasium() {
+		
+	}
+	public static void library () {
+		
+		
+	}
+	
+	
 }
 
 // interface inside cannot create constructor

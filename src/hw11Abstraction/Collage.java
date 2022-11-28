@@ -7,11 +7,13 @@ public interface Collage {
 	public void laboratory();
 
 	public void languageClub();
-	
-	public String dorm ();
-	public static final int studyRoom = 5;		
-			
+
+	public default int dorm() {
+		return 0;
 	}
-	
 
+	public static String studyRoom() {
+		return null;
+	}
 
+}

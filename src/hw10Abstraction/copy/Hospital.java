@@ -1,10 +1,9 @@
 package hw10Abstraction.copy;
 
 public interface Hospital {
-	public String morgue();
+	public default void morgue() {
 
-	public static final int pharmacy = 1200;
-
+	}
 
 	public void emergencyRoom();
 
@@ -13,5 +12,9 @@ public interface Hospital {
 	public void cafeteria();
 
 	String dorm();
+
+	public static void pharmacy() {
+
+	}
 
 }

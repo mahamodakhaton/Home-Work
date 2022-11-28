@@ -7,5 +7,12 @@ public interface Hospital {
 	public void surgeryRoom();
 
 	public void cafeteria();
+	
+	public default void morgue() {
+		
+	}
+	public static void pharmacy() {
+		
+	}
 
 }
